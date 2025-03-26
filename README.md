@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+🎟️ TicketMate (Frontend)
+This is a React.js and Bootstrap project that replicates the frontend of TicketMate. It provides users with a seamless experience for browsing and booking movies, events, and sports tickets.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+✅ Responsive Navigation Bar
 
-## Available Scripts
+Logo placement on the left
 
-In the project directory, you can run:
+Menu items: Movies, Events, Sports, Offers, MyTickets
 
-### `npm start`
+Search bar for movies/events
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dark Mode toggle
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+User authentication options (SignUp/SignIn)
 
-### `npm test`
+✅ Carousels for Featured Movies & Events
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Displays featured movies and events
 
-### `npm run build`
+Auto-scroll and navigation buttons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✅ Movies Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Displays movie listings with details: Name, Genre, Release Date, Ratings, Ticket Price
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sorting and filtering options
 
-### `npm run eject`
+✅ Events Page & Sports Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Showcasing upcoming events and sports matches with a "Book Now" option
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ Ticket Booking System
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Seat selection with dynamic price calculation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Confirmation before final booking
 
-## Learn More
+Saves all previous bookings in local storage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+✅ Dark Mode Toggle
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Allows users to switch between light and dark themes
 
-### Code Splitting
+✅ MyTickets Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Displays all booked tickets (retains history until manually cleared)
 
-### Analyzing the Bundle Size
+📂 Project Structure
+/bookmyshow
+│── /src
+│   │── /components
+│   │── /pages
+│   │── /data
+│   │── /assets
+│── /public
+│── README.md   <-- (This File)
+│── package.json
+│── .gitignore
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+📜 Technologies Used
+React.js (Frontend framework)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+React Router (For navigation)
 
-### Advanced Configuration
+Bootstrap (For responsive UI)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Local Storage (To store booking history)
 
-### Deployment
+📌 Future Enhancements
+Add a backend to handle user authentication and bookings
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Implement a payment gateway for ticket purchases
